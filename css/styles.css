@@ -1,0 +1,42 @@
+/* your css here */
+.todo-app{
+  border:1px solid #dddddd;
+  width: 80%;
+  padding:5px;
+  box-shadow:2px 2px 6px #454545;
+  margin:20px auto;
+}
+
+.todo-app .todo-input, .edit-todo{
+  width:100%;
+  border:none;
+  height: 35px;
+  font-size:25px;
+}
+
+.edit-todo{
+  border:1px solid #dddddd;
+}
+
+.todo-app .todo-input:focus{
+  outline:none;
+}
+
+.todo-item{
+  font-size:25px;
+  border-top:1px solid #dddddd;
+}
+
+.remove-todo{
+  float:right;
+  font-size:17px;
+  font-weight:normal;
+}
+
+.remove-todo:hover{
+  color:grey;
+}
+
+.remove-todo:activeC{
+  color:darkgrey;
+}
